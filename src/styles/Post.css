@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.post-container{
+    width: 40%;
+    margin: auto;
+    color: var(--primary-color);
+    /* padding-top: 70px; */
+}
+
+.post-to-single-post{
+    text-decoration: none;
+    color: black;
+    margin: 50px 0px;
+
+}
+
+.name-and-time{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 0px 0px;
+}
+
+.name-and-time figure{
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin: 10px 0px 0px 0px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+.name-and-time figure img{
+    width:100% ;
+    object-fit: cover;
+    /* border-radius: 100%; */
+
+}
+
+.post-contain{
+    /* height: 120px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+}
+
+.post-title-and-body{
+    /* margin: 20px 0px; */
+}
+
+.post-title-and-body h3{
+    /* margin: 10px 0px; */
+}
+
+.post-title-and-body h4{
+    line-height: 25px;
+    color: var(--sub-text);
+    font-weight: 100;
+}
+
+
+.post-contain div{
+    width: 70%;
+}
+.post-categories-content{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.post-categories{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0px;
+}
+
+.post-categories-content p{
+    padding: 5px 5px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.post-categories-content p:nth-child(1){
+    background-color: whitesmoke;
+    color: var(--primary-color);
+}
+
+.post-icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.post-icon{
+    font-size: 18px;
+    font-weight: 400px;
+
+}
+
+.post-icon:hover{
+    font-weight: 800px;
+    cursor: pointer;
+}
+
+
+
+.post-contain figure{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border: 2px green;
+}
+
+.post-contain figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+

@@ -1,0 +1,80 @@
+.navigation-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.2);  
+    padding:13px 20px;
+    /* position: -webkit-sticky; */
+    /* position: fixed; */
+    background-color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+  
+}
+
+.left-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.left-nav .logo{
+    width: 50px;
+    text-decoration: none;
+}
+
+.left-nav .logo svg{
+    width: 100%;
+}
+
+.left-nav-search{
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.left-nav-search input{
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+}
+
+.left-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.right-nav button{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--bg-light);
+    font-weight: 600;
+}
+
+.write-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    text-decoration: none;
+    color: black;
+}
